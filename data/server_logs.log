@@ -1,0 +1,237 @@
+2024-01-22 21:13:10,418 DEBUG asyncio Using proactor: IocpProactor
+2024-01-22 21:13:10,419 DEBUG aiosqlite executing <function connect.<locals>.connector at 0x000001DD3303B4C0>
+2024-01-22 21:13:10,420 DEBUG aiosqlite operation <function connect.<locals>.connector at 0x000001DD3303B4C0> completed
+2024-01-22 21:13:10,420 DEBUG aiosqlite executing functools.partial(<built-in method create_function of sqlite3.Connection object at 0x000001DD33037D30>, 'regexp', 2, <function SQLiteDialect_pysqlite.on_connect.<locals>.regexp at 0x000001DD33022160>, deterministic=True)
+2024-01-22 21:13:10,420 DEBUG aiosqlite operation functools.partial(<built-in method create_function of sqlite3.Connection object at 0x000001DD33037D30>, 'regexp', 2, <function SQLiteDialect_pysqlite.on_connect.<locals>.regexp at 0x000001DD33022160>, deterministic=True) completed
+2024-01-22 21:13:10,420 DEBUG aiosqlite executing functools.partial(<built-in method create_function of sqlite3.Connection object at 0x000001DD33037D30>, 'floor', 1, <built-in function floor>, deterministic=True)
+2024-01-22 21:13:10,420 DEBUG aiosqlite operation functools.partial(<built-in method create_function of sqlite3.Connection object at 0x000001DD33037D30>, 'floor', 1, <built-in function floor>, deterministic=True) completed
+2024-01-22 21:13:10,420 DEBUG aiosqlite executing functools.partial(<built-in method cursor of sqlite3.Connection object at 0x000001DD33037D30>)
+2024-01-22 21:13:10,420 DEBUG aiosqlite operation functools.partial(<built-in method cursor of sqlite3.Connection object at 0x000001DD33037D30>) completed
+2024-01-22 21:13:10,422 DEBUG aiosqlite executing functools.partial(<built-in method execute of sqlite3.Cursor object at 0x000001DD330642C0>, 'PRAGMA read_uncommitted', [])
+2024-01-22 21:13:10,422 DEBUG aiosqlite operation functools.partial(<built-in method execute of sqlite3.Cursor object at 0x000001DD330642C0>, 'PRAGMA read_uncommitted', []) completed
+2024-01-22 21:13:10,422 DEBUG aiosqlite executing functools.partial(<built-in method fetchall of sqlite3.Cursor object at 0x000001DD330642C0>)
+2024-01-22 21:13:10,422 DEBUG aiosqlite operation functools.partial(<built-in method fetchall of sqlite3.Cursor object at 0x000001DD330642C0>) completed
+2024-01-22 21:13:10,422 DEBUG aiosqlite executing functools.partial(<built-in method close of sqlite3.Cursor object at 0x000001DD330642C0>)
+2024-01-22 21:13:10,422 DEBUG aiosqlite operation functools.partial(<built-in method close of sqlite3.Cursor object at 0x000001DD330642C0>) completed
+2024-01-22 21:13:10,422 DEBUG aiosqlite executing functools.partial(<built-in method rollback of sqlite3.Connection object at 0x000001DD33037D30>)
+2024-01-22 21:13:10,422 DEBUG aiosqlite operation functools.partial(<built-in method rollback of sqlite3.Connection object at 0x000001DD33037D30>) completed
+2024-01-22 21:13:10,423 DEBUG aiosqlite executing functools.partial(<built-in method cursor of sqlite3.Connection object at 0x000001DD33037D30>)
+2024-01-22 21:13:10,423 DEBUG aiosqlite operation functools.partial(<built-in method cursor of sqlite3.Connection object at 0x000001DD33037D30>) completed
+2024-01-22 21:13:10,423 DEBUG aiosqlite executing functools.partial(<built-in method execute of sqlite3.Cursor object at 0x000001DD33064440>, 'PRAGMA main.table_info("messages")', ())
+2024-01-22 21:13:10,424 DEBUG aiosqlite operation functools.partial(<built-in method execute of sqlite3.Cursor object at 0x000001DD33064440>, 'PRAGMA main.table_info("messages")', ()) completed
+2024-01-22 21:13:10,424 DEBUG aiosqlite executing functools.partial(<built-in method fetchall of sqlite3.Cursor object at 0x000001DD33064440>)
+2024-01-22 21:13:10,424 DEBUG aiosqlite operation functools.partial(<built-in method fetchall of sqlite3.Cursor object at 0x000001DD33064440>) completed
+2024-01-22 21:13:10,424 DEBUG aiosqlite executing functools.partial(<built-in method close of sqlite3.Cursor object at 0x000001DD33064440>)
+2024-01-22 21:13:10,424 DEBUG aiosqlite operation functools.partial(<built-in method close of sqlite3.Cursor object at 0x000001DD33064440>) completed
+2024-01-22 21:13:10,425 DEBUG aiosqlite executing functools.partial(<built-in method cursor of sqlite3.Connection object at 0x000001DD33037D30>)
+2024-01-22 21:13:10,425 DEBUG aiosqlite operation functools.partial(<built-in method cursor of sqlite3.Connection object at 0x000001DD33037D30>) completed
+2024-01-22 21:13:10,425 DEBUG aiosqlite executing functools.partial(<built-in method execute of sqlite3.Cursor object at 0x000001DD33015940>, 'PRAGMA main.table_info("users")', ())
+2024-01-22 21:13:10,425 DEBUG aiosqlite operation functools.partial(<built-in method execute of sqlite3.Cursor object at 0x000001DD33015940>, 'PRAGMA main.table_info("users")', ()) completed
+2024-01-22 21:13:10,425 DEBUG aiosqlite executing functools.partial(<built-in method fetchall of sqlite3.Cursor object at 0x000001DD33015940>)
+2024-01-22 21:13:10,425 DEBUG aiosqlite operation functools.partial(<built-in method fetchall of sqlite3.Cursor object at 0x000001DD33015940>) completed
+2024-01-22 21:13:10,425 DEBUG aiosqlite executing functools.partial(<built-in method close of sqlite3.Cursor object at 0x000001DD33015940>)
+2024-01-22 21:13:10,425 DEBUG aiosqlite operation functools.partial(<built-in method close of sqlite3.Cursor object at 0x000001DD33015940>) completed
+2024-01-22 21:13:10,425 DEBUG aiosqlite executing functools.partial(<built-in method cursor of sqlite3.Connection object at 0x000001DD33037D30>)
+2024-01-22 21:13:10,425 DEBUG aiosqlite operation functools.partial(<built-in method cursor of sqlite3.Connection object at 0x000001DD33037D30>) completed
+2024-01-22 21:13:10,426 DEBUG aiosqlite executing functools.partial(<built-in method execute of sqlite3.Cursor object at 0x000001DD33015940>, 'PRAGMA main.table_info("warnings")', ())
+2024-01-22 21:13:10,426 DEBUG aiosqlite operation functools.partial(<built-in method execute of sqlite3.Cursor object at 0x000001DD33015940>, 'PRAGMA main.table_info("warnings")', ()) completed
+2024-01-22 21:13:10,426 DEBUG aiosqlite executing functools.partial(<built-in method fetchall of sqlite3.Cursor object at 0x000001DD33015940>)
+2024-01-22 21:13:10,426 DEBUG aiosqlite operation functools.partial(<built-in method fetchall of sqlite3.Cursor object at 0x000001DD33015940>) completed
+2024-01-22 21:13:10,426 DEBUG aiosqlite executing functools.partial(<built-in method close of sqlite3.Cursor object at 0x000001DD33015940>)
+2024-01-22 21:13:10,426 DEBUG aiosqlite operation functools.partial(<built-in method close of sqlite3.Cursor object at 0x000001DD33015940>) completed
+2024-01-22 21:13:10,426 DEBUG aiosqlite executing functools.partial(<built-in method commit of sqlite3.Connection object at 0x000001DD33037D30>)
+2024-01-22 21:13:10,426 DEBUG aiosqlite operation functools.partial(<built-in method commit of sqlite3.Connection object at 0x000001DD33037D30>) completed
+2024-01-22 21:13:10,427 DEBUG aiosqlite executing functools.partial(<built-in method rollback of sqlite3.Connection object at 0x000001DD33037D30>)
+2024-01-22 21:13:10,427 DEBUG aiosqlite operation functools.partial(<built-in method rollback of sqlite3.Connection object at 0x000001DD33037D30>) completed
+2024-01-22 21:13:10,427 DEBUG aiosqlite executing functools.partial(<built-in method close of sqlite3.Connection object at 0x000001DD33037D30>)
+2024-01-22 21:13:10,427 DEBUG aiosqlite operation functools.partial(<built-in method close of sqlite3.Connection object at 0x000001DD33037D30>) completed
+2024-01-22 21:13:10,427 INFO my_logger Database initialized successfully.
+2024-01-22 21:13:10,428 INFO my_logger Server started on ('127.0.0.1', 8000) message limit 20, expiry 3600
+2024-01-22 21:13:14,627 INFO my_logger New client connected: ('127.0.0.1', 60738)
+2024-01-22 21:13:14,628 DEBUG aiosqlite executing <function connect.<locals>.connector at 0x000001DD3306E020>
+2024-01-22 21:13:14,628 DEBUG aiosqlite operation <function connect.<locals>.connector at 0x000001DD3306E020> completed
+2024-01-22 21:13:14,628 DEBUG aiosqlite executing functools.partial(<built-in method create_function of sqlite3.Connection object at 0x000001DD3306BD30>, 'regexp', 2, <function SQLiteDialect_pysqlite.on_connect.<locals>.regexp at 0x000001DD33022160>, deterministic=True)
+2024-01-22 21:13:14,629 DEBUG aiosqlite operation functools.partial(<built-in method create_function of sqlite3.Connection object at 0x000001DD3306BD30>, 'regexp', 2, <function SQLiteDialect_pysqlite.on_connect.<locals>.regexp at 0x000001DD33022160>, deterministic=True) completed
+2024-01-22 21:13:14,629 DEBUG aiosqlite executing functools.partial(<built-in method create_function of sqlite3.Connection object at 0x000001DD3306BD30>, 'floor', 1, <built-in function floor>, deterministic=True)
+2024-01-22 21:13:14,629 DEBUG aiosqlite operation functools.partial(<built-in method create_function of sqlite3.Connection object at 0x000001DD3306BD30>, 'floor', 1, <built-in function floor>, deterministic=True) completed
+2024-01-22 21:13:14,632 DEBUG aiosqlite executing functools.partial(<built-in method cursor of sqlite3.Connection object at 0x000001DD3306BD30>)
+2024-01-22 21:13:14,632 DEBUG aiosqlite operation functools.partial(<built-in method cursor of sqlite3.Connection object at 0x000001DD3306BD30>) completed
+2024-01-22 21:13:14,632 DEBUG aiosqlite executing functools.partial(<built-in method execute of sqlite3.Cursor object at 0x000001DD330652C0>, 'SELECT messages.id, messages.sender, messages.receiver, messages.message, messages.timestamp \nFROM messages \nWHERE messages.timestamp > ? AND (messages.receiver IS NULL OR messages.receiver IS NULL OR messages.sender IS NULL) ORDER BY messages.timestamp DESC\n LIMIT ? OFFSET ?', (1705943594, 20, 0))
+2024-01-22 21:13:14,632 DEBUG aiosqlite operation functools.partial(<built-in method execute of sqlite3.Cursor object at 0x000001DD330652C0>, 'SELECT messages.id, messages.sender, messages.receiver, messages.message, messages.timestamp \nFROM messages \nWHERE messages.timestamp > ? AND (messages.receiver IS NULL OR messages.receiver IS NULL OR messages.sender IS NULL) ORDER BY messages.timestamp DESC\n LIMIT ? OFFSET ?', (1705943594, 20, 0)) completed
+2024-01-22 21:13:14,633 DEBUG aiosqlite executing functools.partial(<built-in method fetchall of sqlite3.Cursor object at 0x000001DD330652C0>)
+2024-01-22 21:13:14,633 DEBUG aiosqlite operation functools.partial(<built-in method fetchall of sqlite3.Cursor object at 0x000001DD330652C0>) completed
+2024-01-22 21:13:14,633 DEBUG aiosqlite executing functools.partial(<built-in method close of sqlite3.Cursor object at 0x000001DD330652C0>)
+2024-01-22 21:13:14,633 DEBUG aiosqlite operation functools.partial(<built-in method close of sqlite3.Cursor object at 0x000001DD330652C0>) completed
+2024-01-22 21:13:14,633 DEBUG aiosqlite executing functools.partial(<built-in method rollback of sqlite3.Connection object at 0x000001DD3306BD30>)
+2024-01-22 21:13:14,633 DEBUG aiosqlite operation functools.partial(<built-in method rollback of sqlite3.Connection object at 0x000001DD3306BD30>) completed
+2024-01-22 21:13:14,634 DEBUG aiosqlite executing functools.partial(<built-in method rollback of sqlite3.Connection object at 0x000001DD3306BD30>)
+2024-01-22 21:13:14,634 DEBUG aiosqlite operation functools.partial(<built-in method rollback of sqlite3.Connection object at 0x000001DD3306BD30>) completed
+2024-01-22 21:13:14,634 DEBUG aiosqlite executing functools.partial(<built-in method close of sqlite3.Connection object at 0x000001DD3306BD30>)
+2024-01-22 21:13:14,634 DEBUG aiosqlite operation functools.partial(<built-in method close of sqlite3.Connection object at 0x000001DD3306BD30>) completed
+2024-01-22 21:13:27,816 DEBUG aiosqlite executing <function connect.<locals>.connector at 0x000001DD3306C860>
+2024-01-22 21:13:27,816 DEBUG aiosqlite operation <function connect.<locals>.connector at 0x000001DD3306C860> completed
+2024-01-22 21:13:27,816 DEBUG aiosqlite executing functools.partial(<built-in method create_function of sqlite3.Connection object at 0x000001DD33081030>, 'regexp', 2, <function SQLiteDialect_pysqlite.on_connect.<locals>.regexp at 0x000001DD33022160>, deterministic=True)
+2024-01-22 21:13:27,816 DEBUG aiosqlite operation functools.partial(<built-in method create_function of sqlite3.Connection object at 0x000001DD33081030>, 'regexp', 2, <function SQLiteDialect_pysqlite.on_connect.<locals>.regexp at 0x000001DD33022160>, deterministic=True) completed
+2024-01-22 21:13:27,816 DEBUG aiosqlite executing functools.partial(<built-in method create_function of sqlite3.Connection object at 0x000001DD33081030>, 'floor', 1, <built-in function floor>, deterministic=True)
+2024-01-22 21:13:27,816 DEBUG aiosqlite operation functools.partial(<built-in method create_function of sqlite3.Connection object at 0x000001DD33081030>, 'floor', 1, <built-in function floor>, deterministic=True) completed
+2024-01-22 21:13:27,817 DEBUG aiosqlite executing functools.partial(<built-in method cursor of sqlite3.Connection object at 0x000001DD33081030>)
+2024-01-22 21:13:27,818 DEBUG aiosqlite operation functools.partial(<built-in method cursor of sqlite3.Connection object at 0x000001DD33081030>) completed
+2024-01-22 21:13:27,818 DEBUG aiosqlite executing functools.partial(<built-in method execute of sqlite3.Cursor object at 0x000001DD33064BC0>, 'SELECT users.id, users.nickname, users.password \nFROM users \nWHERE users.nickname = ? AND users.password = ?', ('mangekos\x08', 'aa755654'))
+2024-01-22 21:13:27,818 DEBUG aiosqlite operation functools.partial(<built-in method execute of sqlite3.Cursor object at 0x000001DD33064BC0>, 'SELECT users.id, users.nickname, users.password \nFROM users \nWHERE users.nickname = ? AND users.password = ?', ('mangekos\x08', 'aa755654')) completed
+2024-01-22 21:13:27,818 DEBUG aiosqlite executing functools.partial(<built-in method fetchall of sqlite3.Cursor object at 0x000001DD33064BC0>)
+2024-01-22 21:13:27,818 DEBUG aiosqlite operation functools.partial(<built-in method fetchall of sqlite3.Cursor object at 0x000001DD33064BC0>) completed
+2024-01-22 21:13:27,818 DEBUG aiosqlite executing functools.partial(<built-in method close of sqlite3.Cursor object at 0x000001DD33064BC0>)
+2024-01-22 21:13:27,819 DEBUG aiosqlite operation functools.partial(<built-in method close of sqlite3.Cursor object at 0x000001DD33064BC0>) completed
+2024-01-22 21:13:27,819 DEBUG aiosqlite executing functools.partial(<built-in method rollback of sqlite3.Connection object at 0x000001DD33081030>)
+2024-01-22 21:13:27,819 DEBUG aiosqlite operation functools.partial(<built-in method rollback of sqlite3.Connection object at 0x000001DD33081030>) completed
+2024-01-22 21:13:27,820 DEBUG aiosqlite executing functools.partial(<built-in method rollback of sqlite3.Connection object at 0x000001DD33081030>)
+2024-01-22 21:13:27,820 DEBUG aiosqlite operation functools.partial(<built-in method rollback of sqlite3.Connection object at 0x000001DD33081030>) completed
+2024-01-22 21:13:27,821 DEBUG aiosqlite executing functools.partial(<built-in method close of sqlite3.Connection object at 0x000001DD33081030>)
+2024-01-22 21:13:27,821 DEBUG aiosqlite operation functools.partial(<built-in method close of sqlite3.Connection object at 0x000001DD33081030>) completed
+2024-01-22 21:13:29,442 DEBUG aiosqlite executing <function connect.<locals>.connector at 0x000001DD33089440>
+2024-01-22 21:13:29,442 DEBUG aiosqlite operation <function connect.<locals>.connector at 0x000001DD33089440> completed
+2024-01-22 21:13:29,442 DEBUG aiosqlite executing functools.partial(<built-in method create_function of sqlite3.Connection object at 0x000001DD33081300>, 'regexp', 2, <function SQLiteDialect_pysqlite.on_connect.<locals>.regexp at 0x000001DD33022160>, deterministic=True)
+2024-01-22 21:13:29,442 DEBUG aiosqlite operation functools.partial(<built-in method create_function of sqlite3.Connection object at 0x000001DD33081300>, 'regexp', 2, <function SQLiteDialect_pysqlite.on_connect.<locals>.regexp at 0x000001DD33022160>, deterministic=True) completed
+2024-01-22 21:13:29,442 DEBUG aiosqlite executing functools.partial(<built-in method create_function of sqlite3.Connection object at 0x000001DD33081300>, 'floor', 1, <built-in function floor>, deterministic=True)
+2024-01-22 21:13:29,443 DEBUG aiosqlite operation functools.partial(<built-in method create_function of sqlite3.Connection object at 0x000001DD33081300>, 'floor', 1, <built-in function floor>, deterministic=True) completed
+2024-01-22 21:13:29,444 DEBUG aiosqlite executing functools.partial(<built-in method cursor of sqlite3.Connection object at 0x000001DD33081300>)
+2024-01-22 21:13:29,444 DEBUG aiosqlite operation functools.partial(<built-in method cursor of sqlite3.Connection object at 0x000001DD33081300>) completed
+2024-01-22 21:13:29,444 DEBUG aiosqlite executing functools.partial(<built-in method execute of sqlite3.Cursor object at 0x000001DD330651C0>, 'INSERT INTO messages (sender, receiver, message, timestamp) VALUES (?, ?, ?, ?)', ('mangekos\x08', None, 'fs', 1705947209))
+2024-01-22 21:13:29,445 DEBUG aiosqlite operation functools.partial(<built-in method execute of sqlite3.Cursor object at 0x000001DD330651C0>, 'INSERT INTO messages (sender, receiver, message, timestamp) VALUES (?, ?, ?, ?)', ('mangekos\x08', None, 'fs', 1705947209)) completed
+2024-01-22 21:13:29,445 DEBUG aiosqlite executing functools.partial(<built-in method close of sqlite3.Cursor object at 0x000001DD330651C0>)
+2024-01-22 21:13:29,445 DEBUG aiosqlite operation functools.partial(<built-in method close of sqlite3.Cursor object at 0x000001DD330651C0>) completed
+2024-01-22 21:13:29,446 DEBUG aiosqlite executing functools.partial(<built-in method commit of sqlite3.Connection object at 0x000001DD33081300>)
+2024-01-22 21:13:29,452 DEBUG aiosqlite operation functools.partial(<built-in method commit of sqlite3.Connection object at 0x000001DD33081300>) completed
+2024-01-22 21:13:29,452 DEBUG aiosqlite executing functools.partial(<built-in method rollback of sqlite3.Connection object at 0x000001DD33081300>)
+2024-01-22 21:13:29,452 DEBUG aiosqlite operation functools.partial(<built-in method rollback of sqlite3.Connection object at 0x000001DD33081300>) completed
+2024-01-22 21:13:29,453 DEBUG aiosqlite executing functools.partial(<built-in method close of sqlite3.Connection object at 0x000001DD33081300>)
+2024-01-22 21:13:29,453 DEBUG aiosqlite operation functools.partial(<built-in method close of sqlite3.Connection object at 0x000001DD33081300>) completed
+2024-01-22 21:13:30,277 DEBUG aiosqlite executing <function connect.<locals>.connector at 0x000001DD33089D00>
+2024-01-22 21:13:30,278 DEBUG aiosqlite operation <function connect.<locals>.connector at 0x000001DD33089D00> completed
+2024-01-22 21:13:30,278 DEBUG aiosqlite executing functools.partial(<built-in method create_function of sqlite3.Connection object at 0x000001DD33081300>, 'regexp', 2, <function SQLiteDialect_pysqlite.on_connect.<locals>.regexp at 0x000001DD33022160>, deterministic=True)
+2024-01-22 21:13:30,278 DEBUG aiosqlite operation functools.partial(<built-in method create_function of sqlite3.Connection object at 0x000001DD33081300>, 'regexp', 2, <function SQLiteDialect_pysqlite.on_connect.<locals>.regexp at 0x000001DD33022160>, deterministic=True) completed
+2024-01-22 21:13:30,278 DEBUG aiosqlite executing functools.partial(<built-in method create_function of sqlite3.Connection object at 0x000001DD33081300>, 'floor', 1, <built-in function floor>, deterministic=True)
+2024-01-22 21:13:30,279 DEBUG aiosqlite operation functools.partial(<built-in method create_function of sqlite3.Connection object at 0x000001DD33081300>, 'floor', 1, <built-in function floor>, deterministic=True) completed
+2024-01-22 21:13:30,279 DEBUG aiosqlite executing functools.partial(<built-in method cursor of sqlite3.Connection object at 0x000001DD33081300>)
+2024-01-22 21:13:30,279 DEBUG aiosqlite operation functools.partial(<built-in method cursor of sqlite3.Connection object at 0x000001DD33081300>) completed
+2024-01-22 21:13:30,279 DEBUG aiosqlite executing functools.partial(<built-in method execute of sqlite3.Cursor object at 0x000001DD33065BC0>, 'INSERT INTO messages (sender, receiver, message, timestamp) VALUES (?, ?, ?, ?)', ('mangekos\x08', None, 'gdfnkbfd', 1705947210))
+2024-01-22 21:13:30,279 DEBUG aiosqlite operation functools.partial(<built-in method execute of sqlite3.Cursor object at 0x000001DD33065BC0>, 'INSERT INTO messages (sender, receiver, message, timestamp) VALUES (?, ?, ?, ?)', ('mangekos\x08', None, 'gdfnkbfd', 1705947210)) completed
+2024-01-22 21:13:30,280 DEBUG aiosqlite executing functools.partial(<built-in method close of sqlite3.Cursor object at 0x000001DD33065BC0>)
+2024-01-22 21:13:30,280 DEBUG aiosqlite operation functools.partial(<built-in method close of sqlite3.Cursor object at 0x000001DD33065BC0>) completed
+2024-01-22 21:13:30,280 DEBUG aiosqlite executing functools.partial(<built-in method commit of sqlite3.Connection object at 0x000001DD33081300>)
+2024-01-22 21:13:30,286 DEBUG aiosqlite operation functools.partial(<built-in method commit of sqlite3.Connection object at 0x000001DD33081300>) completed
+2024-01-22 21:13:30,286 DEBUG aiosqlite executing functools.partial(<built-in method rollback of sqlite3.Connection object at 0x000001DD33081300>)
+2024-01-22 21:13:30,286 DEBUG aiosqlite operation functools.partial(<built-in method rollback of sqlite3.Connection object at 0x000001DD33081300>) completed
+2024-01-22 21:13:30,286 DEBUG aiosqlite executing functools.partial(<built-in method close of sqlite3.Connection object at 0x000001DD33081300>)
+2024-01-22 21:13:30,286 DEBUG aiosqlite operation functools.partial(<built-in method close of sqlite3.Connection object at 0x000001DD33081300>) completed
+2024-01-22 21:13:30,706 DEBUG aiosqlite executing <function connect.<locals>.connector at 0x000001DD33089B20>
+2024-01-22 21:13:30,708 DEBUG aiosqlite operation <function connect.<locals>.connector at 0x000001DD33089B20> completed
+2024-01-22 21:13:30,708 DEBUG aiosqlite executing functools.partial(<built-in method create_function of sqlite3.Connection object at 0x000001DD33080E50>, 'regexp', 2, <function SQLiteDialect_pysqlite.on_connect.<locals>.regexp at 0x000001DD33022160>, deterministic=True)
+2024-01-22 21:13:30,708 DEBUG aiosqlite operation functools.partial(<built-in method create_function of sqlite3.Connection object at 0x000001DD33080E50>, 'regexp', 2, <function SQLiteDialect_pysqlite.on_connect.<locals>.regexp at 0x000001DD33022160>, deterministic=True) completed
+2024-01-22 21:13:30,709 DEBUG aiosqlite executing functools.partial(<built-in method create_function of sqlite3.Connection object at 0x000001DD33080E50>, 'floor', 1, <built-in function floor>, deterministic=True)
+2024-01-22 21:13:30,709 DEBUG aiosqlite operation functools.partial(<built-in method create_function of sqlite3.Connection object at 0x000001DD33080E50>, 'floor', 1, <built-in function floor>, deterministic=True) completed
+2024-01-22 21:13:30,709 DEBUG aiosqlite executing functools.partial(<built-in method cursor of sqlite3.Connection object at 0x000001DD33080E50>)
+2024-01-22 21:13:30,709 DEBUG aiosqlite operation functools.partial(<built-in method cursor of sqlite3.Connection object at 0x000001DD33080E50>) completed
+2024-01-22 21:13:30,709 DEBUG aiosqlite executing functools.partial(<built-in method execute of sqlite3.Cursor object at 0x000001DD33065B40>, 'INSERT INTO messages (sender, receiver, message, timestamp) VALUES (?, ?, ?, ?)', ('mangekos\x08', None, 'bnfg', 1705947210))
+2024-01-22 21:13:30,710 DEBUG aiosqlite operation functools.partial(<built-in method execute of sqlite3.Cursor object at 0x000001DD33065B40>, 'INSERT INTO messages (sender, receiver, message, timestamp) VALUES (?, ?, ?, ?)', ('mangekos\x08', None, 'bnfg', 1705947210)) completed
+2024-01-22 21:13:30,710 DEBUG aiosqlite executing functools.partial(<built-in method close of sqlite3.Cursor object at 0x000001DD33065B40>)
+2024-01-22 21:13:30,710 DEBUG aiosqlite operation functools.partial(<built-in method close of sqlite3.Cursor object at 0x000001DD33065B40>) completed
+2024-01-22 21:13:30,710 DEBUG aiosqlite executing functools.partial(<built-in method commit of sqlite3.Connection object at 0x000001DD33080E50>)
+2024-01-22 21:13:30,716 DEBUG aiosqlite operation functools.partial(<built-in method commit of sqlite3.Connection object at 0x000001DD33080E50>) completed
+2024-01-22 21:13:30,717 DEBUG aiosqlite executing functools.partial(<built-in method rollback of sqlite3.Connection object at 0x000001DD33080E50>)
+2024-01-22 21:13:30,717 DEBUG aiosqlite operation functools.partial(<built-in method rollback of sqlite3.Connection object at 0x000001DD33080E50>) completed
+2024-01-22 21:13:30,717 DEBUG aiosqlite executing functools.partial(<built-in method close of sqlite3.Connection object at 0x000001DD33080E50>)
+2024-01-22 21:13:30,718 DEBUG aiosqlite operation functools.partial(<built-in method close of sqlite3.Connection object at 0x000001DD33080E50>) completed
+2024-01-22 21:13:31,072 DEBUG aiosqlite executing <function connect.<locals>.connector at 0x000001DD33089B20>
+2024-01-22 21:13:31,073 DEBUG aiosqlite operation <function connect.<locals>.connector at 0x000001DD33089B20> completed
+2024-01-22 21:13:31,073 DEBUG aiosqlite executing functools.partial(<built-in method create_function of sqlite3.Connection object at 0x000001DD33080E50>, 'regexp', 2, <function SQLiteDialect_pysqlite.on_connect.<locals>.regexp at 0x000001DD33022160>, deterministic=True)
+2024-01-22 21:13:31,073 DEBUG aiosqlite operation functools.partial(<built-in method create_function of sqlite3.Connection object at 0x000001DD33080E50>, 'regexp', 2, <function SQLiteDialect_pysqlite.on_connect.<locals>.regexp at 0x000001DD33022160>, deterministic=True) completed
+2024-01-22 21:13:31,073 DEBUG aiosqlite executing functools.partial(<built-in method create_function of sqlite3.Connection object at 0x000001DD33080E50>, 'floor', 1, <built-in function floor>, deterministic=True)
+2024-01-22 21:13:31,073 DEBUG aiosqlite operation functools.partial(<built-in method create_function of sqlite3.Connection object at 0x000001DD33080E50>, 'floor', 1, <built-in function floor>, deterministic=True) completed
+2024-01-22 21:13:31,074 DEBUG aiosqlite executing functools.partial(<built-in method cursor of sqlite3.Connection object at 0x000001DD33080E50>)
+2024-01-22 21:13:31,074 DEBUG aiosqlite operation functools.partial(<built-in method cursor of sqlite3.Connection object at 0x000001DD33080E50>) completed
+2024-01-22 21:13:31,074 DEBUG aiosqlite executing functools.partial(<built-in method execute of sqlite3.Cursor object at 0x000001DD330651C0>, 'INSERT INTO messages (sender, receiver, message, timestamp) VALUES (?, ?, ?, ?)', ('mangekos\x08', None, 'nd', 1705947211))
+2024-01-22 21:13:31,075 DEBUG aiosqlite operation functools.partial(<built-in method execute of sqlite3.Cursor object at 0x000001DD330651C0>, 'INSERT INTO messages (sender, receiver, message, timestamp) VALUES (?, ?, ?, ?)', ('mangekos\x08', None, 'nd', 1705947211)) completed
+2024-01-22 21:13:31,075 DEBUG aiosqlite executing functools.partial(<built-in method close of sqlite3.Cursor object at 0x000001DD330651C0>)
+2024-01-22 21:13:31,075 DEBUG aiosqlite operation functools.partial(<built-in method close of sqlite3.Cursor object at 0x000001DD330651C0>) completed
+2024-01-22 21:13:31,075 DEBUG aiosqlite executing functools.partial(<built-in method commit of sqlite3.Connection object at 0x000001DD33080E50>)
+2024-01-22 21:13:31,081 DEBUG aiosqlite operation functools.partial(<built-in method commit of sqlite3.Connection object at 0x000001DD33080E50>) completed
+2024-01-22 21:13:31,081 DEBUG aiosqlite executing functools.partial(<built-in method rollback of sqlite3.Connection object at 0x000001DD33080E50>)
+2024-01-22 21:13:31,081 DEBUG aiosqlite operation functools.partial(<built-in method rollback of sqlite3.Connection object at 0x000001DD33080E50>) completed
+2024-01-22 21:13:31,082 DEBUG aiosqlite executing functools.partial(<built-in method close of sqlite3.Connection object at 0x000001DD33080E50>)
+2024-01-22 21:13:31,082 DEBUG aiosqlite operation functools.partial(<built-in method close of sqlite3.Connection object at 0x000001DD33080E50>) completed
+2024-01-22 21:13:31,417 DEBUG aiosqlite executing <function connect.<locals>.connector at 0x000001DD33089B20>
+2024-01-22 21:13:31,419 DEBUG aiosqlite operation <function connect.<locals>.connector at 0x000001DD33089B20> completed
+2024-01-22 21:13:31,419 DEBUG aiosqlite executing functools.partial(<built-in method create_function of sqlite3.Connection object at 0x000001DD33081030>, 'regexp', 2, <function SQLiteDialect_pysqlite.on_connect.<locals>.regexp at 0x000001DD33022160>, deterministic=True)
+2024-01-22 21:13:31,419 DEBUG aiosqlite operation functools.partial(<built-in method create_function of sqlite3.Connection object at 0x000001DD33081030>, 'regexp', 2, <function SQLiteDialect_pysqlite.on_connect.<locals>.regexp at 0x000001DD33022160>, deterministic=True) completed
+2024-01-22 21:13:31,419 DEBUG aiosqlite executing functools.partial(<built-in method create_function of sqlite3.Connection object at 0x000001DD33081030>, 'floor', 1, <built-in function floor>, deterministic=True)
+2024-01-22 21:13:31,419 DEBUG aiosqlite operation functools.partial(<built-in method create_function of sqlite3.Connection object at 0x000001DD33081030>, 'floor', 1, <built-in function floor>, deterministic=True) completed
+2024-01-22 21:13:31,420 DEBUG aiosqlite executing functools.partial(<built-in method cursor of sqlite3.Connection object at 0x000001DD33081030>)
+2024-01-22 21:13:31,420 DEBUG aiosqlite operation functools.partial(<built-in method cursor of sqlite3.Connection object at 0x000001DD33081030>) completed
+2024-01-22 21:13:31,420 DEBUG aiosqlite executing functools.partial(<built-in method execute of sqlite3.Cursor object at 0x000001DD33065BC0>, 'INSERT INTO messages (sender, receiver, message, timestamp) VALUES (?, ?, ?, ?)', ('mangekos\x08', None, 'ndfg', 1705947211))
+2024-01-22 21:13:31,422 DEBUG aiosqlite operation functools.partial(<built-in method execute of sqlite3.Cursor object at 0x000001DD33065BC0>, 'INSERT INTO messages (sender, receiver, message, timestamp) VALUES (?, ?, ?, ?)', ('mangekos\x08', None, 'ndfg', 1705947211)) completed
+2024-01-22 21:13:31,422 DEBUG aiosqlite executing functools.partial(<built-in method close of sqlite3.Cursor object at 0x000001DD33065BC0>)
+2024-01-22 21:13:31,422 DEBUG aiosqlite operation functools.partial(<built-in method close of sqlite3.Cursor object at 0x000001DD33065BC0>) completed
+2024-01-22 21:13:31,423 DEBUG aiosqlite executing functools.partial(<built-in method commit of sqlite3.Connection object at 0x000001DD33081030>)
+2024-01-22 21:13:31,428 DEBUG aiosqlite operation functools.partial(<built-in method commit of sqlite3.Connection object at 0x000001DD33081030>) completed
+2024-01-22 21:13:31,429 DEBUG aiosqlite executing functools.partial(<built-in method rollback of sqlite3.Connection object at 0x000001DD33081030>)
+2024-01-22 21:13:31,429 DEBUG aiosqlite operation functools.partial(<built-in method rollback of sqlite3.Connection object at 0x000001DD33081030>) completed
+2024-01-22 21:13:31,429 DEBUG aiosqlite executing functools.partial(<built-in method close of sqlite3.Connection object at 0x000001DD33081030>)
+2024-01-22 21:13:31,429 DEBUG aiosqlite operation functools.partial(<built-in method close of sqlite3.Connection object at 0x000001DD33081030>) completed
+2024-01-22 21:13:31,702 DEBUG aiosqlite executing <function connect.<locals>.connector at 0x000001DD33089C60>
+2024-01-22 21:13:31,703 DEBUG aiosqlite operation <function connect.<locals>.connector at 0x000001DD33089C60> completed
+2024-01-22 21:13:31,703 DEBUG aiosqlite executing functools.partial(<built-in method create_function of sqlite3.Connection object at 0x000001DD33081030>, 'regexp', 2, <function SQLiteDialect_pysqlite.on_connect.<locals>.regexp at 0x000001DD33022160>, deterministic=True)
+2024-01-22 21:13:31,703 DEBUG aiosqlite operation functools.partial(<built-in method create_function of sqlite3.Connection object at 0x000001DD33081030>, 'regexp', 2, <function SQLiteDialect_pysqlite.on_connect.<locals>.regexp at 0x000001DD33022160>, deterministic=True) completed
+2024-01-22 21:13:31,703 DEBUG aiosqlite executing functools.partial(<built-in method create_function of sqlite3.Connection object at 0x000001DD33081030>, 'floor', 1, <built-in function floor>, deterministic=True)
+2024-01-22 21:13:31,703 DEBUG aiosqlite operation functools.partial(<built-in method create_function of sqlite3.Connection object at 0x000001DD33081030>, 'floor', 1, <built-in function floor>, deterministic=True) completed
+2024-01-22 21:13:31,704 DEBUG aiosqlite executing functools.partial(<built-in method cursor of sqlite3.Connection object at 0x000001DD33081030>)
+2024-01-22 21:13:31,704 DEBUG aiosqlite operation functools.partial(<built-in method cursor of sqlite3.Connection object at 0x000001DD33081030>) completed
+2024-01-22 21:13:31,704 DEBUG aiosqlite executing functools.partial(<built-in method execute of sqlite3.Cursor object at 0x000001DD33064BC0>, 'INSERT INTO messages (sender, receiver, message, timestamp) VALUES (?, ?, ?, ?)', ('mangekos\x08', None, 'ndf', 1705947211))
+2024-01-22 21:13:31,705 DEBUG aiosqlite operation functools.partial(<built-in method execute of sqlite3.Cursor object at 0x000001DD33064BC0>, 'INSERT INTO messages (sender, receiver, message, timestamp) VALUES (?, ?, ?, ?)', ('mangekos\x08', None, 'ndf', 1705947211)) completed
+2024-01-22 21:13:31,705 DEBUG aiosqlite executing functools.partial(<built-in method close of sqlite3.Cursor object at 0x000001DD33064BC0>)
+2024-01-22 21:13:31,705 DEBUG aiosqlite operation functools.partial(<built-in method close of sqlite3.Cursor object at 0x000001DD33064BC0>) completed
+2024-01-22 21:13:31,705 DEBUG aiosqlite executing functools.partial(<built-in method commit of sqlite3.Connection object at 0x000001DD33081030>)
+2024-01-22 21:13:31,710 DEBUG aiosqlite operation functools.partial(<built-in method commit of sqlite3.Connection object at 0x000001DD33081030>) completed
+2024-01-22 21:13:31,712 DEBUG aiosqlite executing functools.partial(<built-in method rollback of sqlite3.Connection object at 0x000001DD33081030>)
+2024-01-22 21:13:31,712 DEBUG aiosqlite operation functools.partial(<built-in method rollback of sqlite3.Connection object at 0x000001DD33081030>) completed
+2024-01-22 21:13:31,712 DEBUG aiosqlite executing functools.partial(<built-in method close of sqlite3.Connection object at 0x000001DD33081030>)
+2024-01-22 21:13:31,712 DEBUG aiosqlite operation functools.partial(<built-in method close of sqlite3.Connection object at 0x000001DD33081030>) completed
+2024-01-22 21:13:31,983 DEBUG aiosqlite executing <function connect.<locals>.connector at 0x000001DD3306E020>
+2024-01-22 21:13:31,985 DEBUG aiosqlite operation <function connect.<locals>.connector at 0x000001DD3306E020> completed
+2024-01-22 21:13:31,985 DEBUG aiosqlite executing functools.partial(<built-in method create_function of sqlite3.Connection object at 0x000001DD33080130>, 'regexp', 2, <function SQLiteDialect_pysqlite.on_connect.<locals>.regexp at 0x000001DD33022160>, deterministic=True)
+2024-01-22 21:13:31,986 DEBUG aiosqlite operation functools.partial(<built-in method create_function of sqlite3.Connection object at 0x000001DD33080130>, 'regexp', 2, <function SQLiteDialect_pysqlite.on_connect.<locals>.regexp at 0x000001DD33022160>, deterministic=True) completed
+2024-01-22 21:13:31,986 DEBUG aiosqlite executing functools.partial(<built-in method create_function of sqlite3.Connection object at 0x000001DD33080130>, 'floor', 1, <built-in function floor>, deterministic=True)
+2024-01-22 21:13:31,986 DEBUG aiosqlite operation functools.partial(<built-in method create_function of sqlite3.Connection object at 0x000001DD33080130>, 'floor', 1, <built-in function floor>, deterministic=True) completed
+2024-01-22 21:13:31,987 DEBUG aiosqlite executing functools.partial(<built-in method cursor of sqlite3.Connection object at 0x000001DD33080130>)
+2024-01-22 21:13:31,987 DEBUG aiosqlite operation functools.partial(<built-in method cursor of sqlite3.Connection object at 0x000001DD33080130>) completed
+2024-01-22 21:13:31,987 DEBUG aiosqlite executing functools.partial(<built-in method execute of sqlite3.Cursor object at 0x000001DD33064C40>, 'INSERT INTO messages (sender, receiver, message, timestamp) VALUES (?, ?, ?, ?)', ('mangekos\x08', None, 'jhd', 1705947211))
+2024-01-22 21:13:31,988 DEBUG aiosqlite operation functools.partial(<built-in method execute of sqlite3.Cursor object at 0x000001DD33064C40>, 'INSERT INTO messages (sender, receiver, message, timestamp) VALUES (?, ?, ?, ?)', ('mangekos\x08', None, 'jhd', 1705947211)) completed
+2024-01-22 21:13:31,988 DEBUG aiosqlite executing functools.partial(<built-in method close of sqlite3.Cursor object at 0x000001DD33064C40>)
+2024-01-22 21:13:31,988 DEBUG aiosqlite operation functools.partial(<built-in method close of sqlite3.Cursor object at 0x000001DD33064C40>) completed
+2024-01-22 21:13:31,988 DEBUG aiosqlite executing functools.partial(<built-in method commit of sqlite3.Connection object at 0x000001DD33080130>)
+2024-01-22 21:13:31,993 DEBUG aiosqlite operation functools.partial(<built-in method commit of sqlite3.Connection object at 0x000001DD33080130>) completed
+2024-01-22 21:13:31,993 DEBUG aiosqlite executing functools.partial(<built-in method rollback of sqlite3.Connection object at 0x000001DD33080130>)
+2024-01-22 21:13:31,994 DEBUG aiosqlite operation functools.partial(<built-in method rollback of sqlite3.Connection object at 0x000001DD33080130>) completed
+2024-01-22 21:13:31,994 DEBUG aiosqlite executing functools.partial(<built-in method close of sqlite3.Connection object at 0x000001DD33080130>)
+2024-01-22 21:13:31,994 DEBUG aiosqlite operation functools.partial(<built-in method close of sqlite3.Connection object at 0x000001DD33080130>) completed
+2024-01-22 21:13:32,352 DEBUG aiosqlite executing <function connect.<locals>.connector at 0x000001DD3306C860>
+2024-01-22 21:13:32,353 DEBUG aiosqlite operation <function connect.<locals>.connector at 0x000001DD3306C860> completed
+2024-01-22 21:13:32,353 DEBUG aiosqlite executing functools.partial(<built-in method create_function of sqlite3.Connection object at 0x000001DD33081030>, 'regexp', 2, <function SQLiteDialect_pysqlite.on_connect.<locals>.regexp at 0x000001DD33022160>, deterministic=True)
+2024-01-22 21:13:32,353 DEBUG aiosqlite operation functools.partial(<built-in method create_function of sqlite3.Connection object at 0x000001DD33081030>, 'regexp', 2, <function SQLiteDialect_pysqlite.on_connect.<locals>.regexp at 0x000001DD33022160>, deterministic=True) completed
+2024-01-22 21:13:32,353 DEBUG aiosqlite executing functools.partial(<built-in method create_function of sqlite3.Connection object at 0x000001DD33081030>, 'floor', 1, <built-in function floor>, deterministic=True)
+2024-01-22 21:13:32,354 DEBUG aiosqlite operation functools.partial(<built-in method create_function of sqlite3.Connection object at 0x000001DD33081030>, 'floor', 1, <built-in function floor>, deterministic=True) completed
+2024-01-22 21:13:32,354 DEBUG aiosqlite executing functools.partial(<built-in method cursor of sqlite3.Connection object at 0x000001DD33081030>)
+2024-01-22 21:13:32,354 DEBUG aiosqlite operation functools.partial(<built-in method cursor of sqlite3.Connection object at 0x000001DD33081030>) completed
+2024-01-22 21:13:32,354 DEBUG aiosqlite executing functools.partial(<built-in method execute of sqlite3.Cursor object at 0x000001DD33065BC0>, 'INSERT INTO messages (sender, receiver, message, timestamp) VALUES (?, ?, ?, ?)', ('mangekos\x08', None, 'dfgjh', 1705947212))
+2024-01-22 21:13:32,355 DEBUG aiosqlite operation functools.partial(<built-in method execute of sqlite3.Cursor object at 0x000001DD33065BC0>, 'INSERT INTO messages (sender, receiver, message, timestamp) VALUES (?, ?, ?, ?)', ('mangekos\x08', None, 'dfgjh', 1705947212)) completed
+2024-01-22 21:13:32,355 DEBUG aiosqlite executing functools.partial(<built-in method close of sqlite3.Cursor object at 0x000001DD33065BC0>)
+2024-01-22 21:13:32,355 DEBUG aiosqlite operation functools.partial(<built-in method close of sqlite3.Cursor object at 0x000001DD33065BC0>) completed
+2024-01-22 21:13:32,356 DEBUG aiosqlite executing functools.partial(<built-in method commit of sqlite3.Connection object at 0x000001DD33081030>)
+2024-01-22 21:13:32,362 DEBUG aiosqlite operation functools.partial(<built-in method commit of sqlite3.Connection object at 0x000001DD33081030>) completed
+2024-01-22 21:13:32,362 DEBUG aiosqlite executing functools.partial(<built-in method rollback of sqlite3.Connection object at 0x000001DD33081030>)
+2024-01-22 21:13:32,362 DEBUG aiosqlite operation functools.partial(<built-in method rollback of sqlite3.Connection object at 0x000001DD33081030>) completed
+2024-01-22 21:13:32,363 DEBUG aiosqlite executing functools.partial(<built-in method close of sqlite3.Connection object at 0x000001DD33081030>)
+2024-01-22 21:13:32,363 DEBUG aiosqlite operation functools.partial(<built-in method close of sqlite3.Connection object at 0x000001DD33081030>) completed
+2024-01-22 21:14:03,763 ERROR my_logger Connection cancelled 
+
+2024-01-22 21:14:03,763 INFO my_logger Client disconnected: ('127.0.0.1', 60738)
