@@ -208,28 +208,27 @@ class Server:
         if len(args) < 2:
             await sender.send("Usage: /private <nickname> <message>")
             return
-        else:
-            receiver_nickname, message = args[0], args[1:]
-            if recievers := self.find_client_by_nickname(receiver_nickname):
-                is_sender_notified = False
-                for receiver in recievers:
-                    await receiver.send(
-                        f'Private message from {sender.nickname}: '
+        receiver_nickname, message = args[0], args[1:]
+        if recievers := self.find_client_by_nickname(receiver_nickname):
+            is_sender_notified = False
+            for receiver in recievers:
+                await receiver.send(
+                    f'Private message from {sender.nickname}: '
+                    f'{" ".join(message)}'
+                )
+                if not is_sender_notified:
+                    await sender.send(
+                        f'Private message to {receiver_nickname}: '
                         f'{" ".join(message)}'
                     )
-                    if not is_sender_notified:
-                        await sender.send(
-                            f'Private message to {receiver_nickname}: '
-                            f'{" ".join(message)}'
-                        )
-                        is_sender_notified = True
-                    await self.save_message(
-                        sender.nickname, receiver_nickname, " ".join(message)
-                    )
-            else:
-                await sender.send(
-                    f'User "{receiver_nickname}" not found or offline.'
+                    is_sender_notified = True
+                await self.save_message(
+                    sender.nickname, receiver_nickname, " ".join(message)
                 )
+        else:
+            await sender.send(
+                f'User "{receiver_nickname}" not found or offline.'
+            )
 
     async def handle_help_command(self, sender: Client) -> Coroutine:
         await sender.send(
@@ -303,6 +302,4 @@ async def main(host: str, port: int) -> Coroutine:
 
 
 if __name__ == "__main__":
-    with open(r"data\server_logs.log", "w"):
-        pass
     asyncio.run(main("127.0.0.1", 8000))

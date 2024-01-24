@@ -1,7 +1,6 @@
 import asyncio
 import unittest
 from unittest.mock import MagicMock, patch
-import aiosqlite
 
 from server import Server
 from client import Client
